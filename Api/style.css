@@ -1,0 +1,30 @@
+body {
+    background: #f6f7fb;
+}
+
+.table thead th {
+    white-space: nowrap;
+}
+
+.img-thumb {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+tr.clickable-row {
+    cursor: pointer;
+}
+
+.desc-tooltip {
+    max-width: 420px;
+    white-space: normal;
+    font-size: 0.9rem;
+}
+
+.badge-cat {
+    font-size: 0.85rem;
+}
